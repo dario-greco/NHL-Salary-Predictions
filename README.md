@@ -23,13 +23,10 @@ The analysis focused on engineering meaningful features, transforming the target
 - `NHL_Salary_Model.Rmd` – Full model development and evaluation in RMarkdown
 - `report.pdf` – Exported summary report
 
-## Tools
-
-- R (tidyverse, caret, gbm, xgboost, mgcv)
-- RMarkdown
-
 ## Result
 
 - 2nd place on the public leaderboard  
 - Final solution formed by averaging predictions from four tree-based models  
 - Leaderboard: [Kaggle Competition – Advanced Regression](https://www.kaggle.com/competitions/adv-regression/leaderboard)
+
+Feel free to reach out with any questions!
