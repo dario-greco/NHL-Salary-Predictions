@@ -2,16 +2,10 @@
 
 This project explores machine learning methods for predicting NHL player salaries using player performance and team-level data. Developed for a [Kaggle-hosted competition at the University of Waterloo](https://www.kaggle.com/competitions/adv-regression/overview), the final model achieved **2nd place** on the [public leaderboard](https://www.kaggle.com/competitions/adv-regression/leaderboard).
 
-## Summary
-
-The analysis focused on engineering meaningful features, transforming the target variable (log-salary), and comparing several regression models. Tree-based methods performed best, and the final prediction was formed by averaging multiple high-performing models.
-
 ## Methods Used
 
 - Exploratory data analysis and preprocessing
-- Feature engineering (e.g., point-per-minute, cap-efficiency ratios)
-- Log-transform of the response variable
-- Model tuning with `caret`
+- Feature engineering 
 - Ensemble of the following models:
   - Generalized Additive Models (GAM)
   - Gradient Boosting Machines (GBM)
